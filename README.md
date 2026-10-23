@@ -22,7 +22,8 @@ Each release has three files:
 | `latest.yml` | The update feed the app reads. It holds the version, the installer's SHA-512 hash, and Dexturr's signature. |
 | `DexturrTweaks-Setup-<version>.exe.blockmap` | Lets the app download only the parts of the installer that changed. |
 
-**Requirements:** Windows 11 23H2 (build 22631) or newer, 64-bit. Installing needs administrator approval.
+**Requirements:** Windows 10 version 22H2 or Windows 11, 64-bit. A few tweaks are Windows 11 only and say so in the
+app. Installing needs administrator approval.
 
 **"Windows protected your PC":** the beta installer isn't code-signed with a paid certificate yet, so SmartScreen
 warns about it. Click **More info → Run anyway**. Every release lists its SHA-256 hash in the release notes, so you
