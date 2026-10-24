@@ -71,7 +71,10 @@ Get-FileHash .\DexturrTweaks-Setup-<version>.exe -Algorithm SHA256
 ## Privacy
 
 There are no accounts, telemetry or ads. The app goes online only to check this repository for updates (you can turn
-that off) and for network tests you start yourself. Logs stay on your PC in `%LOCALAPPDATA%\Dexturr\logs`, and you
+that off), for network tests you start yourself, and when you click **Send my results** under a proof card. That
+sends one before/after comparison (a random install ID, your processor and graphics card, and the Frame Test
+numbers; never your name, email or license key) after showing you exactly what will be sent. It's used to see which
+PCs Dexturr helps most and to make it better. Logs stay on your PC in `%LOCALAPPDATA%\Dexturr\logs`, and you
 decide whether to send them when reporting a problem.
 
 ## How it's built
